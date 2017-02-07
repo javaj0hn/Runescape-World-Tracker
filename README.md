@@ -5,6 +5,8 @@ An Oldschool Runescape world tracker written in Python.
 Python 3
 
 ###Usage:
-```python
-print("hello")
+```bash
+python track %populationChange %timeChange
+python track 15 10
+Now tracking changes of 15 in a 10 second time-span...
 ```
