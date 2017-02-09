@@ -33,7 +33,7 @@ while True:
     for (k, v), (k2,v2) in zip(worldDict.items(), newworldDict.items()):
         change = int(v) - int(v2)
         if(change >= popRatio or change <= -popRatio):
-            print(k, change)
+            print("World {0} | {1} ".format(k, change))
     #Clear dictionary and copy new data
     worldDict = {}
     worldDict = dict(zip(newworlds, newpopulation))
